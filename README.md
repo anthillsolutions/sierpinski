@@ -3,9 +3,10 @@ Sierpinski Triangle
 
 Probalistic generation of the Sierpinski Triangle in Angular2.
 
-[![Gemnasium](https://img.shields.io/gemnasium/anthillsolutions/sierpinski.svg)]()
-[![label](https://img.shields.io/github/issues/anthillsolutions/sierpinski.svg)]()
-[![license](https://img.shields.io/github/license/anthillsolutions/sierpinski.svg)]()
+[![Codeship](https://img.shields.io/codeship/89e63a90-0ed9-0135-dad5-2604a1807cee.svg)](https://app.codeship.com/projects/216037)
+[![Gemnasium](https://img.shields.io/gemnasium/anthillsolutions/sierpinski.svg)](https://coveralls.io/github/anthillsolutions/sierpinski?branch=master)
+[![label](https://img.shields.io/github/issues/anthillsolutions/sierpinski.svg)](https://github.com/anthillsolutions/sierpinski/issues)
+[![license](https://img.shields.io/github/license/anthillsolutions/sierpinski.svg)](https://github.com/anthillsolutions/sierpinski/blob/master/LICENSE)
 
 Install
 -------
