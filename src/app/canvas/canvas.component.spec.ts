@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { Component } from '@angular/core';
 
 import { CanvasComponent } from './canvas.component';
 
@@ -8,7 +9,9 @@ describe('CanvasComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CanvasComponent ]
+      declarations: [
+        CanvasComponent,
+      ],
     })
     .compileComponents();
   }));

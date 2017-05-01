@@ -10,16 +10,14 @@ export class CanvasComponent implements OnInit {
   private canvas: any;
   private sq: number = 4;
   private padding: number = 50;
+  private iterations: number = 10000;
   innerHeight: any;
   innerWidth: any;
   @ViewChild('canvas') canvasRef:ElementRef;
-  // @Input() width: number;
-  // @Input() height: number;
-  @Input() iterations: number;
 
   constructor() {
-    this.innerHeight = (window.innerHeight);
-    this.innerWidth = (window.innerWidth);
+    this.innerHeight = window.innerHeight;
+    this.innerWidth = window.innerWidth;
   }
 
   ngOnInit() {
